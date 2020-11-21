@@ -56,11 +56,22 @@ span{
     padding:20px;
 }
 
-.content span{
+.time{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.content p{
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.dots{
     font-size: 18px;
     font-weight: 600;
 }
-
 
 .info__lists{
     position: absolute;
@@ -83,7 +94,7 @@ span{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    flex:1 1 0
+    flex:1 1 0;
 }
 
 .super{
